@@ -34,7 +34,7 @@ Any kind of contributions are welcome.
 5. Open a Pull Request.
 
 ### Difficulties
-1. Some Libraries like rasterio was not able to install. So the right way to install some libraries packegies is to use load it as .whl backage thin install it.
+1. Some Libraries like rasterio was not able to install. So the right way to install some libraries packages is: to load the .whl packages then install it.
 2. Selecting the way of clipping the tif files.
 
 ### Conclusion 
