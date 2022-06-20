@@ -35,7 +35,6 @@ Python libraries:
 7. Subtract the Clipped DTM from the Clipped DSM to compute The Canopy Height Model CHM.
 8. Plot the CHM.
 
-
 ### Contributing
 Any kind of contributions are welcome. 
 
