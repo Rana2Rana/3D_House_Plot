@@ -23,7 +23,11 @@ Python libraries:
 * shapely
 * rasterio
 * plotly
-
+### Project Steps
+1. Providing the address as street name, house number, zip_code, city without spaces.
+2. match the adres with correct API.
+3. Get the coord
+4. 
 ### Contributing
 Any kind of contributions are welcome. 
 
