@@ -11,7 +11,7 @@ Just by providing the address of that building.
 
 * Clone the repository.
 * Run the code.
-* Give the address.
+* Give the address without spaces
 
 ### Requirements
 python 3.9 or 3.10
