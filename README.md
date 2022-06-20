@@ -11,7 +11,7 @@ Just by providing the address of that building.
 
 * Clone the repository.
 * Run the code.
-* Give the address.
+* Give the address without spaces
 
 ### Requirements
 python 3.9 or 3.10
@@ -24,6 +24,18 @@ Python libraries:
 * rasterio
 * plotly
 
+
+### Project Steps
+1. Providing the address as street name, house number, zip_code, city without spaces.
+2. match the adres with correct API.
+3. Get the coordinates.
+4. Check this coordinates in which DSM ans DTM.
+5. Clip the target zone from the DSM.tif
+6. Clip the target zone from the DTM.tif
+7. Subtract the Clipped DTM from the Clipped DSM to compute The Canopy Height Model CHM.
+8. Plot the CHM.
+
+
 ### Contributing
 Any kind of contributions are welcome. 
 
@@ -34,7 +46,7 @@ Any kind of contributions are welcome.
 5. Open a Pull Request.
 
 ### Difficulties
-1. Some Libraries like rasterio was not able to install. So the right way to install some libraries packegies is to use load it as .whl backage thin install it.
+1. Some Libraries like rasterio was not able to install. So the right way to install some libraries packages is: to load the .whl packages then install it.
 2. Selecting the way of clipping the tif files.
 
 ### Conclusion 
