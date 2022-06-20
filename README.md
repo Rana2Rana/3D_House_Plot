@@ -27,9 +27,9 @@ Python libraries:
 
 ### Project Steps
 1. Providing the address as street name, house number, zip_code, city without spaces.
-2. match the adres with correct API.
+2. Match the address with correct API.
 3. Get the coordinates.
-4. Check this coordinates in which DSM ans DTM.
+4. Check this coordinates in which file of the Digital Surface Model (DSM) and Digital Terrain Model (DTM).
 5. Clip the target zone from the DSM.tif
 6. Clip the target zone from the DTM.tif
 7. Subtract the Clipped DTM from the Clipped DSM to compute The Canopy Height Model CHM.
