@@ -17,17 +17,17 @@ Just by providing the address of that building.
 python 3.9 or 3.10
 
 Python libraries:
-* requests
-* json
-* os
-* shapely
-* rasterio
-* plotly
+* `requests`
+* `json`
+* `os`
+* `shapely`
+* `rasterio`
+* `plotly`
 
 
 ### Project Steps
 1. Providing the address as street name, house number, zip_code, city without spaces.
-2. Match the address with correct API.
+2. Match the address with correct `API`.
 3. Get the coordinates.
 4. Check this coordinates in which file of the Digital Surface Model (DSM) and Digital Terrain Model (DTM).
 5. Clip the target zone from the DSM.tif
